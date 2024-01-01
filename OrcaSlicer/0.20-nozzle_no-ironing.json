@@ -1,0 +1,17 @@
+{
+    "elefant_foot_compensation": "0.3",
+    "ensure_vertical_shell_thickness": "0",
+    "extra_perimeters_on_overhangs": "1",
+    "from": "User",
+    "inherits": "0.20mm Standard @Creality Ender3V2",
+    "ironing_flow": "12%",
+    "ironing_spacing": "0.2",
+    "ironing_speed": "20",
+    "is_custom_defined": "0",
+    "name": "Ender3-V3-KE-0.20mm_No-Ironing",
+    "print_settings_id": "Ender3-V3-KE-0.20mm_No-Ironing",
+    "skirt_distance": "3",
+    "skirt_loops": "2",
+    "sparse_infill_pattern": "cubic",
+    "version": "1.8.0.0"
+}
