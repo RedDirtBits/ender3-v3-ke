@@ -23,7 +23,7 @@ G1 X-2.0 Y20 Z0.28 F5000.0
 M117 Heating Bed
 
 ;Set the bed temperature and hold until it is reached (60c)
-M190 S60
+M190 S60.0
 
 ;Display message (If supported, the message will be seen on the 3D printer contoller screen)
 M117 Heating Nozzle
@@ -32,7 +32,7 @@ M117 Heating Nozzle
 M109 S210.0
 
 ; Use the restriced [non-printable] area of the of the print bed to lay down a couple
-; single laer lines.  The effect of which is to purge and properly presurize the nozzle.
+; single layer lines.  The effect of which is to purge and properly presurize the nozzle.
 ; Which, if not done, will result in the printer not printing for a brief period when it
 ; moves to the print start position which can lead to discontinuity of the critical first
 ; layer being put down on the bed surface
@@ -51,7 +51,12 @@ G1 Z2.0 F3000
 G1 E0.0000 F1800
 ;[END Printer START G-Code]
 
-[Printer END G-Code]
+
+
+
+
+
+;[BEGIN Printer END G-Code]
 ; Start end of printing reset
 
 ; Set positioning to relative
@@ -60,7 +65,7 @@ G91
 ; Retract the extruder a bit to prevent ozing
 G1 E2 F2700
 
-; Retract some more and raze the Z axis
+; Retract some more and raise the Z axis
 G1 E2 Z0.2 F2400
 
 ; Perform a wipe out
