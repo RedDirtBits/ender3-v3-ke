@@ -1,0 +1,18 @@
+{
+    "enable_prime_tower": "1",
+    "from": "User",
+    "inherits": "0.20mm Standard @Creality Ender3V3KE",
+    "ironing_type": "top",
+    "is_custom_defined": "0",
+    "layer_height": "0.15",
+    "name": "Ender3V3KE-0.20mm-Brass",
+    "overhang_reverse": "1",
+    "overhang_reverse_internal_only": "1",
+    "overhang_reverse_threshold": "0%",
+    "precise_outer_wall": "1",
+    "print_settings_id": "Ender3V3KE-0.20mm-Brass",
+    "slowdown_for_curled_perimeters": "1",
+    "sparse_infill_pattern": "cubic",
+    "version": "1.9.0.2",
+    "wall_loops": "3"
+}

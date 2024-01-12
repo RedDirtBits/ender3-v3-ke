@@ -1,0 +1,9 @@
+{
+    "from": "User",
+    "inherits": "Creality Ender-3 V3 KE 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Ender-3-V3-KE-0.4-Nozzle",
+    "print_host": "10.19.99.16",
+    "printer_settings_id": "Ender-3-V3-KE-0.4-Nozzle",
+    "version": "1.9.0.2"
+}
